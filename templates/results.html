@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arterial Blood Gas Results</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+
+<body>
+    <h1>Arterial Blood Gas Results</h1>
+    <div class="result-container">
+        <h2>Main Interpretation</h2>
+        <p><strong>Main Reading:</strong> {{ main_res }}</p>
+    </div>
+    <div class="result-container">
+        <h2>Peripheral Interpretation</h2>
+        <p><strong>Potassium Reading:</strong> {{ potassium_res }}</p>
+        <p><strong>Oxygen Saturation Reading:</strong> {{ spo2_res }}</p>
+    </div>
+</body>
+
+</html>
