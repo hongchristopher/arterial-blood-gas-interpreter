@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from abg import ABGInterpreter
 
 app = Flask(__name__)
+app.static_folder = 'static'
 
 # home
 @app.route('/')
@@ -20,3 +21,4 @@ def interpret():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
