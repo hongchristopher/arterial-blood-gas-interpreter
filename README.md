@@ -4,7 +4,8 @@ Arterial Blood Gas Interpreter is a tool, for educational use only, that allows 
 
 ## Built With
 
-* [Flask](https://flask.palletsprojects.com/en/2.3.x/) - The web framework used
+* [Python](https://www.python.org/)
+* [Flask](https://flask.palletsprojects.com/en/2.3.x/)
 
 ## Contributing
 
